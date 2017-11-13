@@ -1,0 +1,68 @@
+<html>
+<head>
+<h1>Dropdown Menu</h1>
+<style>
+.buttonlook{
+  background: LightSkyBlue;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 5px;
+    z-index: 1;
+}
+.dropdown-content li {
+list-style-type: none;
+}
+
+.dropdown-content a {
+text-decoration:none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: #0000CD 4px double;
+}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <span class='buttonlook'>Cakes&nbsp</span>
+  <div class="dropdown-content">
+    <p>List of Cake Shops</p>
+    <li><a href="https://www.shophansencakes.com/cakes.html">Hansen's Cake<a></li>
+    <li><a href="http://www.bigsugarbakeshop.com/cakes.html">Big Sugar Bakeshop<a></li>
+	<li><a href="http://larkcakeshop.com/cakes/">Lark Cake Shop<a></li>
+	<li><a href="http://parisbaguette.com/cakes---desserts.html">Paris Baguette<a></li>
+  </div>
+</div>
+<div class="dropdown">
+  <span class='buttonlook'>Ice Cream</span>
+  <div class="dropdown-content">
+  <p>List of Ice Cream Shops</p>
+    <li><a href="http://ihwamun.com/">Ihwamun Ice Cream</a></li>
+    <li><a href="http://www.theplushhorse.com/">The Plush Horse<a></li>
+	<li><a href="http://www.browncowicecream.com/">The Brown Cow Ice Cream Parlor<a></li>
+	<li><a href="http://www.rainbowcone.com/">Original Rainbow Cone<a></li>
+  </div>
+</div>
+<div class="dropdown">
+  <span class='buttonlook'>Cupcakes</span>
+  <div class="dropdown-content">
+  <p>List of Cupcake Shops</p>
+    <li><a href="http://thelatestcrave.com/">The Latest Crave</a></li>
+    <li><a href="http://www.cupcakeshopnapervilleil.com/">Smallcakes<a></li>
+	<li><a href="http://sweettemptationscupcake.com/">Sweet Temptations Cupcake<a></li>
+	<li><a href="http://www.swirlzcupcakesshop.com/">Swirlz Cupcakes<a></li>
+  </div>
+</div>
+</body>
+</html>
